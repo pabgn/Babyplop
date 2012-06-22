@@ -9,19 +9,19 @@ class Trait:
 		listChoice = [0, 1]
 		if (parentAA == parentAB):
 			parentAEqual = True
-		else
+		else:
 			parentAEqual = False
 		if (parentBA == parentBB):
 			parentBEqual = True
-		else
+		else:
 			parentBEqual = False
 			
 		if (parentAEqual):
 			self.selfA = parentAA
-		else
+		else:
 			self.selfA = choice(listChoice)
 			
 		if (parentBEqual):
 			self.selfB = parentAA
-		else
+		else:
 			self.selfB = choice(listChoice)

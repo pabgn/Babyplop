@@ -5,7 +5,7 @@ class Hair (Trait):
 		if (self.selfA == self.selfB):
 			if (self.selfA == 0):
 				return "blonde"
-			else
+			else:
 				return "black"
-		else
+		else:
 			return "brown"

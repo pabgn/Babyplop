@@ -5,7 +5,7 @@ class Eyes (Trait):
 		if (self.selfA == self.selfB):
 			if (self.selfA == 0):
 				return "blue"
-			else
+			else:
 				return "black"
-		else
+		else:
 			return "brown"
